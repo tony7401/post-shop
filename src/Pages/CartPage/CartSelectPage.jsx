@@ -71,7 +71,6 @@ const CartSelectPage = ({ onAddToCart }) => {
             바로 구매
           </button>
 
-          {/* 나머지 4개 버튼 (2줄 2칸) */}
           <div className="grid grid-cols-2 gap-3">
             <button
               onClick={handleAddCart}
