@@ -1,0 +1,9 @@
+.step-item:not(:first-child)::before {
+  content: ">";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #999;
+  font-size: 1rem;
+}
